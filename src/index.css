@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.col,
+.col-8,
+.col-4 {
+padding: 0.5rem;
+background-color: #f9f7fa;
+border: 2px solid #fff;
+color: #fff;
+text-align: center;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
